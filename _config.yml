@@ -1,0 +1,4 @@
+source:      .
+destination: ./_site
+
+permalink: /:category/:title
