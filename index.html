@@ -8,21 +8,93 @@
     <meta name="author" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <style>
       body {
       	background:#fafafa;
+      	color:#333;
         padding-top: 60px;
         font-family:'Merriweather', serif;
+      }
+
+      p, li {
+      	line-height:1.667;
+      }
+
+      li {
+      	margin-bottom:1em;
       }
 
       h1, h2, h3, h4, h5, h6 {
       	font-family:Lato, sans-serif;
       	font-weight:normal;
       }
+
+      h3, h4, h5 {
+      	margin-top:2em;
+      }
+
+      h3 {
+      	font-size:2.5em;
+      }
+
+      h4, h5 {
+      	line-height:1.2;
+      }
+
+      h4 {
+      	font-size:2em;
+      }
+
+      h5 {
+      	font-size:1.5em;
+      }
+
+      h6 {
+      	font-size:1em; 
+      	text-transform:uppercase;
+      	font-weight:700;
+      	letter-spacing:1px;
+      }
+
+      .economic h3,
+      .economic h4,
+      .economic h5,
+      .economic h6 {
+      	color: #5f4580;
+      }
+
+      .land h3,
+      .land h4,
+      .land h5,
+      .land h6 {
+      	color: #d9a000;
+      }
+
+      .systems h3,
+      .systems h4,
+      .systems h5,
+      .systems h6 {
+      	color: #dc7a00;
+      }
+     
+      .neighborhood h3,
+      .neighborhood h4,
+      .neighborhood h5,
+      .neighborhood h6 {
+      	color: #e02c00;
+      }
+     
+      .assets h3,
+      .assets h4,
+      .assets h5,
+      .assets h6 {
+      	color: #004980;
+      }
+
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -39,6 +111,7 @@
 
 	<h2>Sections</h2>
 
+		<div class="economic">
 		<h3>The economic growth element</h3>
 
 		<p>The Economic Growth Element proposes five strategies to grow Detroit&apos;s economy in a way that is equitable for all Detroiters, supports Detroit&apos;s economic sectors, and can attract new residents and businesses</p>
@@ -182,8 +255,9 @@
 					</ol>
 
 
+		</div> <!-- end economic -->
 
-
+		<div class="land">
 		<h3>The land use element</h3>
 
 		<p>Land is Detroit&apos;s greatest Liability and its greatest asset. The preoccupation with what to do with all that land has driven the discussion about land use and led to oversimplified strategies. In fact, Detroit&apos;s population density is still similar to that of cities like Portland, Atlanta, and Denver. To be sure, a traditional &ldquo;build it and they will come&rdquo; approach is not going to work for Detroit.</p>
@@ -208,7 +282,7 @@
 				
 				<p>Efficient movement of goods and waste in and through Detroit is key to the economic and environmental health of the city. For freight as well as personal transit, the interchanges between hierarchy tiers or different modes of transportation are as important as the routes that run between them. The type of interchange required will have an important impact on the land use in that area. A transit interchange will offer a range of higher-density land uses that can offer services to those passing through. A freight interchange may require large amounts of space and therefore should be considered for areas expected to stabilize at lower residential densities or even change land use altogether.</p>
 
-				<h5>A green city where landscapes contribute to health</h5>
+				<h5>3. A green city where landscapes contribute to health</h5>
 
 				<p>Unlike other cities pressed to find space for transformative landscapes, Detroit has an abundance of available land resources that can be leveraged to create a new green and sustainable city unlike any other in the world. <strong>Landscape has enormous potential to structure or foster social and cultural relationships through adapted and productive ecologies that will give rise to a new urban form.</strong></p>
 
@@ -220,7 +294,7 @@
 
 				<p>Because they work most effectively across large scales, with the ability to connect and coordinate seemingly unrelated entities, landscapes also have the potential to reconnect Detroit with its regional context. Landscapes of this type are already in place in Detroit, including the William G. Milliken State Park and Harbor, Detroit RiverWalk, and Belle Isle.</p>
 
-				<h5>A city of distinct, attractive neighborhoods</h5>
+				<h5>4. A city of distinct, attractive neighborhoods</h5>
 
 				<p>Detroit has room to offer many neighborhood types and lifestyle choices for residents who want to stay in the city, while welcoming new residents looking to make detroit their home. To achieve this, a series of traditional and innovative neighborhood typologies have been established to directly engage existing challenges within the city, and to leverage the strengths and assets of existing neighborhoods and places with unique characteristics. Guiding the development of these neighborhoods are a series of development targets and performance measures to define neighborhood goals and measure their success in meeting those goals—which are in turn tied to the goal of a high quality of life for all residents.</p>
 
@@ -301,8 +375,9 @@
 						<li>Revise/amend City Master Plan of Policies and Zoning Ordinance.</li>
 						<li>Update public, private, and philanthropic policy guiding documents.</li>
 					</ol>
+		</div><!-- end land -->
 
-
+		<div class="systems">
 		<h3>The city systems element</h3>
 
 		<p><strong>Renewing and realigning for the new Detroit.</strong> From streetlights and utility networks to waste management and transportation, Detroit&apos;s city systems sustain its residents and businesses—but in turn must be sustained by revenues from these users. Yet population and employment loss, and the resulting loss of revenue and disinvestment, have left Detroiters paying more for less.</p>
@@ -448,7 +523,9 @@
 						<li>Communicate with affected communities and monitor processes for emerging success and unforeseen adverse impacts.</li>
 					</ol>
 
+		</div>
 
+		<div class="neighborhood">
 		<h3>The neighborhood element</h3>
 			<h4>Ideas</h4>
 
@@ -505,7 +582,9 @@
 				<h5>F. Utilize productive landscapes as the basis for a sustainable city</h5>
 
 				<p><strong>Alternative use areas</strong> are areas that are anticipated to see declining population and the expansion of vacant land. Given the challenges associated with very high-vacancy, many people living in these areas would move to a safer, amenity-rich neighborhood if provided the opportunity. At the same time, many residents have a loyal devotion to their properties and larger communities. Whilethe opportunity to rebuild these neighborhoodsinto what they were is no longer a possibility, action must be taken to improve the quality of life for residents who will continue to live inthese areas. <strong>These areas hold the potential for reinvention with new productive land uses, but the rights of existing residents must be upheld, with residents included in the process of reinvention, not imposed upon.</strong></p>
+		</div><!-- end neighborhood -->
 
+		<div class="assets">
 		<h3>The land and buildings assets element</h3>
 
 		<p>Vacant land and buildings are among Detroit&apos;s most valuable assets for its future. While in the abstract this may seem reasonable, to those dealing with these properties it is difficult to internalize. The sheer magnitude of the inventory, the difficulties of maintaining it, the obstacles to reuse, and the limited resources affecting every public agency in the city are all barriers to recognizing the untapped potential of the city&apos;s public land inventory. The challenge does not stop at public land: In fact, far more vacant and underutilized properties remain in private rather than public ownership.</p>
@@ -674,7 +753,9 @@
 						<li>Address problem landlords.</li>
 						<li>Create formal partnership with Wayne County Treasurer for tax foreclosure auctions.</li>
 					</ol>
-	</div>
-	</div>
+		</div><!-- end neighborhood -->
+
+	</div> <!-- end span6 -->
+	</div> <!-- end container -->
 </body>
 </html>
