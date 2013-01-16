@@ -1,0 +1,4 @@
+source:      .
+destination: ./_site
+
+permalink: /:month-:day-:year/:title.html
