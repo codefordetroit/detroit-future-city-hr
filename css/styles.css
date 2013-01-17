@@ -1,0 +1,91 @@
+body {
+	background:#fafafa;
+	color:#333;
+  padding-top: 60px;
+  font-family:'Merriweather', serif;
+}
+
+p, li {
+	line-height:1.667;
+}
+
+li {
+	margin-bottom:1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:Lato, sans-serif;
+	font-weight:normal;
+}
+
+h1 {
+	font-size:3.5em;
+}
+
+h2 {
+	color:#555;
+	text-shadow:1px 0px 3px rgb(255,255,255,.25);
+	font-size:3em;
+}
+
+h3, h4, h5 {
+	margin-top:2em;
+}
+
+h3 {
+	font-size:2.5em;
+}
+
+h4, h5 {
+	line-height:1.2;
+}
+
+h4 {
+	font-size:2em;
+}
+
+h5 {
+	font-size:1.5em;
+}
+
+h6 {
+	font-size:1em; 
+	text-transform:uppercase;
+	font-weight:700;
+	letter-spacing:1px;
+}
+
+.economic h3,
+.economic h4,
+.economic h5,
+.economic h6 {
+	color: #5f4580;
+}
+
+.land h3,
+.land h4,
+.land h5,
+.land h6 {
+	color: #d9a000;
+}
+
+.systems h3,
+.systems h4,
+.systems h5,
+.systems h6 {
+	color: #dc7a00;
+}
+
+.neighborhood h3,
+.neighborhood h4,
+.neighborhood h5,
+.neighborhood h6 {
+	color: #e02c00;
+}
+
+.assets h3,
+.assets h4,
+.assets h5,
+.assets h6 {
+	color: #004980;
+}

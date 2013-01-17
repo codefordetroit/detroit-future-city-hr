@@ -40,3 +40,132 @@ imperatives that will enable Detroit to move toward a more prosperous future.</p
 <p>An InTEGRATED AppROACh TO TRAnSFORMInG ThE CITy AnD ITS nEIGhbORhOODS</p>
 
 <h3>ThE ECOnOMIC GROWTh ElEMEnT</h3>
+
+<p>The Economic Growth Element proposes five strategies to grow Detroit’s economy in a way that is equitable for all Detroiters, supports Detroit’s economic sectors, and can attract new residents and businesses:</p>
+
+<ul>
+	<li>Support the Four Key Economic Growth Pillars that have already demonstrated promising job growth: education and medical employment (“Eds and Meds”), digital and creative jobs, industrial employment (both traditional and new technologies, large-scale and artisanal, manufacture, and processes), and local entrepreneurship.</li>
+	<li>Use place-based strategies to create core investment and employment corridors, focusing on seven employment districts where job growth is already occurring.</li>
+	<li>Encourage local entrepreneurship and minority-owned business.</li>
+	<li>Improve education and skills development.</li>
+	<li>Transform the city’s land into an economic asset.</li>
+</ul>
+
+<h3>ThE lAnD uSE ElEMEnT</h3>
+
+<p>The Land Use Element offers land use strategies that are situated between the city’s existing conditions and a range of preferred futures. The Detroit Strategic Framework organizes a wide variety of potential land use types within three levels of scale and purpose:</p>
+
+<ul>
+	<li>FRAMEWORK ZONES that guide citywide and investment decisions in terms of the best ways to make positive change in areas with a range of physical and market characteristics. The most influential characteristic is vacancy, because of its drastic effect on physical and market conditions of an area.</li>
+	<li>LAND USE TYPOLOGIES that provide the future vision for land use within the city. They are divided into three primary categories: neighborhood, industrial, and landscape.</li>
+	<li>DEVELOPMENT TYPES that visualize how
+the physical development of buildings and landscape may occur within a particular land use typology. They are divided into four major categories: residential, commercial, landscape, and industrial.</li>
+</ul>
+
+<p>In addition, the Detroit Strategic Framework recommends the following supportive strategies for land use:</p>
+
+<ul>
+	<li>Create a new and diverse open space system for the city,</li>
+	<li>Redefine corridors and complete streets, and</li>
+	<li>Develop innovative regulatory reform.</li>
+</ul>
+
+<h3>ThE CITy SySTEMS ElEMEnT</h3>
+
+<p>This Element describes the imperative of moving toward a more affordable, efficient, and environmentally sustainable city through reforms to how services are delivered throughout the city, and through transformation of the systems and networks that carry the city’s water, waste, energy, and transportation. This chapter proposes six strategies:</p>
+
+<ul>
+<li>Reform system delivery to adapt to the current population and to better coordinate public and private service provision for more efficient and reliable services that will adapt to future needs.</li>
+<li>Create innovative landscapes (green and blue infrastructure) that actively clean the air and water to provide better environmental quality and public health for Detroit.</li>
+<li>Reshape transportation to establish Detroit within a regional, multimodal network that better serves commercial and personal transportation needs, especially in terms of connecting neighborhoods and employment districts, as well as better serving Detroit’s freight industry.</li>
+<li>Improve lighting efficiency throughout the city.</li>
+<li>Enhance communications access in Detroit.</li>
+<li>Actively manage change, by continuing discussions that have already begun removing regulatory barriers, to interagency cooperation at the city and regional levels, as well as establishing an interagency platform for coordinated decision making about city services.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
