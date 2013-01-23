@@ -23,6 +23,12 @@ li {
 	margin-bottom:1em;
 }
 
+.breadcrumb li {
+	margin-bottom:0;
+}
+
+/* Headings .................................................................*/
+
 h1, h2, h3, h4, h5, h6 {
 	font-family:Lato, sans-serif;
 	font-weight:normal;
@@ -107,4 +113,16 @@ h6 {
 .assets h5,
 .assets h6 {
 	color: #004980;
+}
+
+
+/* Table of contents ........................................................*/
+#toc ol li { 
+	font-weight:bold;
+	margin-bottom:1.5em;
+}
+
+#toc ol ol li {
+	font-weight:normal;
+	margin-bottom:0.25em;
 }
