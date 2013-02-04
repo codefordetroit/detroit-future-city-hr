@@ -6,13 +6,13 @@ body {
 }
 
 a {
-	color:#004980;
+	color:#0066b3;
 	text-decoration: none;
 }
 	
 	a:hover {
 		text-decoration: none;
-		border-bottom: 1px dotted #004980;
+		border-bottom: 1px dotted #0066b3;
 	}
 
 p, li {
