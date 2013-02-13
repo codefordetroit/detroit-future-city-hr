@@ -1,7 +1,6 @@
 body {
 	background:#fff;
 	color:#333;
-  padding-top: 60px;
   font-family:'Merriweather', serif;
 }
 
@@ -125,4 +124,13 @@ h6 {
 #toc ol ol li {
 	font-weight:normal;
 	margin-bottom:0.25em;
+}
+
+/* Additional CSS from anderoy ================================ */
+.jumbotron {
+  background: url("../img/bg-dfc.png") no-repeat scroll 100%;
+  height: 200px;
+  vertical-align: middle;
+  color: white;
+  padding: 43px 0 0 0;
 }
