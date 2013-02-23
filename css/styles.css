@@ -49,7 +49,6 @@ h1 {
 
 h2 {
 	color:#555;
-	text-shadow:1px 0px 3px rgb(255,255,255,.25);
 	font-size:3em;
 }
 
@@ -130,11 +129,32 @@ h6 {
 /* Additional CSS from anderoy ================================ */
 .jumbotron {
   background: url("../img/bg-dfc.png") no-repeat scroll 100%;
-  height: 200px;
+  height: auto;
   vertical-align: middle;
   color: white;
   padding: 42px 0 0 0;
+  padding-bottom:0px;
 }
+
+  .jumbotron .nav-tabs {
+    margin-bottom: 0;
+  }
+
+    @media (max-width: 480px) { 
+      .jumbotron .nav-tabs > li {
+          float:none;
+      }
+    }
+
+
+    .jumbotron .nav-tabs a {
+      color:#fff;
+    }
+
+    .jumbotron .nav-tabs .active a,
+    .jumbotron .nav-tabs a:hover {
+      color:#000;
+    }
 
 .navbar-fixed-top li {
 	font-family: Lato, sans-serif;
