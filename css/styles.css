@@ -53,7 +53,7 @@ h2 {
 }
 
 h3, h4, h5 {
-	margin-top:2em;
+	margin-top:0.5em;
 }
 
 h3 {
@@ -66,6 +66,7 @@ h4, h5 {
 
 h4 {
 	font-size:2em;
+  margin-top:1em;
 }
 
 h5 {
@@ -167,7 +168,8 @@ h6 {
 }
 
 section {
-	padding-top: 30px;
+  padding-top:15px;
+	padding-bottom: 15px;
 }
 
 /* Missing carousel CSS from Bootstrap
