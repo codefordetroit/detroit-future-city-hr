@@ -170,6 +170,30 @@ section {
 	padding-top: 30px;
 }
 
+/* Missing carousel CSS from Bootstrap
+------------------------------------------------------*/
+.carousel-indicators {
+    list-style: none outside none;
+    margin: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 5;
+}
+.carousel-indicators li {
+    background-color: rgba(35, 35, 35, 0.25);
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    float: left;
+    height: 10px;
+    margin-left: 5px;
+    text-indent: -999px;
+    width: 10px;
+}
+.carousel-indicators .active {
+    background-color: #333333;
+}
+
 
 /* Sidenav for Docs
 -------------------------------------------------- */
