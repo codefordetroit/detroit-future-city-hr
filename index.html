@@ -8,7 +8,7 @@
     <meta name="author" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
 
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -22,52 +22,214 @@
     <![endif]-->
   </head>
 
-<body>
-	<div class="container">
+<body data-target=".dfc-sidebar" data-spy="scroll">
 
-	<div class="row">
-		<div class="span12">
-			<h1>Detroit Future City</h1>
 
-			<div class="well well-small">
-				<p>This isn't the official Detroit Future City site -- that's <a href="http://detroitfuturecity.com">over here</a></p>
-				<p>This is a volunteer effort to turn the 350+ page report into an easy-to-read website. The officaily report is currently formatted as a 11x17 PDF; we're slowly working out way through it. We'd be thrilled if the offical DFC project wants to take over.</p>
-				<p>Problems, suggestions, or want to help out? <a href="mailto:detroit@codeforamerica.org">Email us</a> or <a href="https://github.com/mikefresh/detroit-future-city-hr">contribute on github</a>.</p>
-			</div>
 
-			<div id="toc">
-				<ol>
-					<li>Foreword
-						<ol>
-							<li><a href="foreword-detroit.html">Detroit is...</a></li>
-							<li><a href="foreword-forward.html">Forward</a></li>
-						</ol>
-					</li>
-					<li>Executive Summary</li>
-					<li>Guide to the Strategic Framework
-						<ol>
-							<li><a href="guide-organized.html">How the plan is organized</a></li>
-							<li><a href="guide-elements.html">The planning elements</a></li>
-							<li><a href="guide-change.html">Implementation horizons is organized for change</a></li>
-						</ol>
-					</li>
-					<li>
-						The Planning Elements
-						<ol>
-							<li><a href="economic.html">The economic growth element</a></li>
-							<li><a href="landuse.html">The land use element</a></li>
-							<li><a href="systems.html">The city systems element</a></li>
-							<li><a href="neighborhoods.html">The neighborhood element</a></li>
-							<li><a href="assets.html">The land and building assets</a></li>
-						</ol>
-					</li>
-					<li>Civic Engagement</li>
-					<li>Afterword</li>
+<!--Top menu for primary navigation
+==================================================-->
+<div class="navbar navbar-fixed-top"> <!--Top navigation menu-->
+    <div class="navbar-inner">
+    <div class="container">
+        <button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="../index.html">Detroit Future City</a>
+    <div class="nav-collapse collapse">
+        <ul class="nav">
+            <li><a href="index.html"><i class="icon-home"></i> Home</a></li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="../land-use/index.html" data-toggle="dropdown" role="button">
+                    About
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu1" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="about/blueprint.html" tabindex="-1" role="menuitem">The Blueprint</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about/engagement.html" tabindex="-1" role="menuitem">Community Engagement</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Economic Growth
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu2" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="economic-growth/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="economic-growth/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="economic-growth/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="economic-growth/imperatives.html" tabindex="-1" role="menuitem">Imperatives &amp; Quality of Business</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="economic-growth/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Land Use
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu3" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="land-use/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="land-use/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="land-use/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="land-use/imperatives.html" tabindex="-1" role="menuitem">Imperatives</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="land-use/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    City Systems
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu4" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="city-systems/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="city-systems/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="city-systems/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="city-systems/imperatives.html" tabindex="-1" role="menuitem">Imperatives</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="city-systems/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Neighborhood
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu5" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="neighborhood/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="neighborhood/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="neighborhood/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="neighborhood/imperatives.html" tabindex="-1" role="menuitem">Imperatives &amp; Quality of Life</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="neighborhood/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Public Assests
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu6" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="land-buildings-assets/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="land-buildings-assets/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="land-buildings-assets/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="land-buildings-assets/imperatives.html" tabindex="-1" role="menuitem">Imperatives</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="land-buildings-assets/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div><!--end collapse menu links-->
+    </div>
+    </div>
+</div> <!--Top navigation menu end-->
 
-				</ol>
-			</div>
-		</div>
-	</div>
-	</div> <!-- end container -->
+
+<!--Jumbotron header for potential homepage splash
+==================================================-->
+<header class="jumbotron homepage">
+    <div class="container">
+        <h1>Detroit Future City</h1>
+        <p class="lead">Strategic Framework Plan</p>
+    </div>
+</header>
+
+<div class="container">
+<!--Sidebar for affix menus
+==================================================-->
+    <div class="row boxes intro">
+        <div class="span4"> <!--Sidebar content-->
+            <div class="box">
+        	<h1>Getting started with the framework</h1>
+        	<p>There's a lot to the report. Start in the introduction
+                to get grounded.</p>
+            </div>
+        </div> <!--Sidebar content end-->
+        <div class="span4"> <!--Sidebar content-->
+            <div class="box">
+        	<h1>What's happening to my neighborhood?</h1>
+            <p>Read these sections to see recommendations for different areas in
+                the city</p>
+            </div>
+        </div> <!--Sidebar content end-->
+	    <div class="span4"> <!--Sidebar content-->
+            <div class="box">
+	    	<h1>What happens with the plan?</h1>
+            <p>These are ideas. It's now up to neighborhoods and the city to
+                implement, iterate, and inform them</p>
+            </div>
+	    </div> <!--Sidebar content end-->
+    </div>
+
+    <div class="row">
+        <div class="span12">
+            <h1 style="margin-top:1em;">Something catchy here</h1>
+        </div>
+    </div>
+
+</div> <!--container end-->
+
+<!--Javascript libraries
+==================================================-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
+

@@ -9,7 +9,7 @@ a {
 	color:#0066b3;
 	text-decoration: none;
 }
-	
+
 	a:hover {
 		text-decoration: none;
 		/*border-bottom: 1px dotted #0066b3; anderoy: no need for this*/
@@ -74,7 +74,7 @@ h5 {
 }
 
 h6 {
-	font-size:1em; 
+	font-size:1em;
 	text-transform:uppercase;
 	font-weight:700;
 	letter-spacing:1px;
@@ -117,7 +117,7 @@ h6 {
 
 
 /* Table of contents ........................................................*/
-#toc ol li { 
+#toc ol li {
 	font-weight:bold;
 	margin-bottom:1.5em;
 }
@@ -128,6 +128,19 @@ h6 {
 }
 
 /* Additional CSS from anderoy ================================ */
+
+.box {
+  border:5px solid #eee;
+  border-radius:10px;
+  min-height:100px;
+  padding:0px 10px;
+}
+
+  .box h1 {
+    font-size:24px;
+    line-height:1.15;
+  }
+
 .jumbotron {
   background: url("../img/bg-dfc.png") no-repeat scroll 100%;
   height: auto;
@@ -135,13 +148,19 @@ h6 {
   color: white;
   padding: 42px 0 0 0;
   padding-bottom:0px;
+  margin-bottom:30px;
 }
+
+  .jumbotron.homepage {
+    padding-top:200px;
+    background: url("../img/index/back.jpg") no-repeat scroll 100%;
+  }
 
   .jumbotron .nav-tabs {
     margin-bottom: 0;
   }
 
-    @media (max-width: 480px) { 
+    @media (max-width: 480px) {
       .jumbotron .nav-tabs > li {
           float:none;
       }
@@ -404,4 +423,4 @@ section {
     margin: 0 auto;
   }
 */
- 
+
