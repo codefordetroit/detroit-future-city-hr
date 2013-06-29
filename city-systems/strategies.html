@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Detroit Future City</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+<body data-target=".dfc-sidebar" data-spy="scroll">
+
+
+<!--Top menu for primary navigation
+==================================================-->
+<div class="navbar navbar-fixed-top"> <!--Top navigation menu-->
+    <div class="navbar-inner">
+    <div class="container">
+        <button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="../index.html">Detroit Future City</a>
+    <div class="nav-collapse collapse">
+        <ul class="nav">
+            <li class="dropdown"><a href="../index.html"><i class="icon-home"></i> Home</a></li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    About
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu1" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="../about/blueprint.html" tabindex="-1" role="menuitem">The Blueprint</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../about/engagement.html" tabindex="-1" role="menuitem">Community Engagement</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Economic Growth
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu2" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="../economic-growth/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="../economic-growth/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../economic-growth/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../economic-growth/imperatives.html" tabindex="-1" role="menuitem">Imperatives &amp; Quality of Business</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../economic-growth/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Land Use
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu3" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="../land-use/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="../land-use/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../land-use/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../land-use/imperatives.html" tabindex="-1" role="menuitem">Imperatives</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../land-use/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="active dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    City Systems
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu4" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="imperatives.html" tabindex="-1" role="menuitem">Imperatives</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Neighborhood
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu5" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="../neighborhood/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="../neighborhood/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../neighborhood/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../neighborhood/imperatives.html" tabindex="-1" role="menuitem">Imperatives &amp; Quality of Life</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../neighborhood/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a id="drop5" class="dropdown-toggle" href="#" data-toggle="dropdown" role="button">
+                    Public Assests
+                    <b class="caret"></b>
+                </a>
+                <ul id="menu6" class="dropdown-menu" aria-labelledby="drop5" role="menu">
+                    <li role="presentation">
+                        <a href="../land-buildings-assets/index.html" tabindex="-1" role="menuitem">Overview</a>
+                    </li>
+                    <li class="divider" role="presentation"></li>
+                    <li role="presentation">
+                        <a href="../land-buildings-assets/ideas.html" tabindex="-1" role="menuitem">Transformative Ideas</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../land-buildings-assets/realities.html" tabindex="-1" role="menuitem">Realities</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../land-buildings-assets/imperatives.html" tabindex="-1" role="menuitem">Imperatives</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="../land-buildings-assets/strategies.html" tabindex="-1" role="menuitem">Strategies &amp; Implementation</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div><!--end collapse menu links-->
+    </div>
+    </div>
+</div> <!--Top navigation menu end-->
+
+
+
+<!--Jumbotron header for section specific colored image and text
+==================================================-->
+<header class="jumbotron" id="overview">
+    <div class="container">
+        <h1>The City Systems Element</h1>
+        <p class="lead">The sustainable city</p>
+        <ul class="nav nav-tabs">
+        <li role="presentation">
+            <a href="index.html">Overview</a>
+        </li>
+        <li role="presentation">
+            <a href="ideas.html">Transformative Ideas</a>
+        </li>
+        <li role="presentation">
+            <a href="realities.html">Realities</a>
+        </li>
+        <li role="presentation">
+            <a href="imperatives.html">Imperatives</a>
+        </li>
+        <li role="presentation" class="active">
+            <a href="strategies.html">Strategies &amp; Implementation</a>
+        </li>
+        </ul>
+    </div>
+</header>
+
+<div class="container">
+<!--Sidebar for sub-section specific affix menus
+==================================================-->
+        <div class="row">
+            <div class="span3 dfc-sidebar"> <!--Sidebar content-->
+                <ul class="span3 nav nav-list dfc-sidenav" data-spy="affix" data-offset-top="200">
+                    <li class="">
+                        <a href="#1">
+                            <i class="icon-chevron-right"></i>
+                            Reform delivery system
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#2">
+                            <i class="icon-chevron-right"></i>
+                            Create landscapes that work
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#3">
+                            <i class="icon-chevron-right"></i>
+                            Reconfigure transportation
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#4">
+                            <i class="icon-chevron-right"></i>
+                            A city of diverse housing types for diverse populations
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#5">
+                            <i class="icon-chevron-right"></i>
+                            Improve lighting efficency
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#6">
+                            <i class="icon-chevron-right"></i>
+                            Reduce waste and increase recycling
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="#7">
+                            <i class="icon-chevron-right"></i>
+                            Actively manage change
+                        </a>
+                    </li>
+
+                </ul>
+            </div> <!--Sidebar content end-->
+
+<!--Main body content area
+==================================================-->
+            <div class="span6"> <!--Body content-->
+
+            <h4>Strategies and implementation</h4>
+
+            <p><strong>Land use and city systems</strong>. Efficient and cost-effective systems are essential to achieving the vision of a Detroit that supports an excellent quality of life for its residents and attracts a dynamic range of new residents. Detroit’s systems must be transformed to:</p>
+
+            <ul>
+               <li>deliver services at a level that is appropriate for the needs of each neighborhood, employment center, or enterprise;</li>
+
+               <li>be flexible enough to serve the city’s current scale and meet the potential for future transformation;</li>
+
+               <li>reate a high-quality, accessible, attractive, and environmentally sustainable city environment while reducing resource use and reversing negative environmental impacts; and</li>
+
+               <li>reduce service costs for businesses, residents, and the city government.</li>
+            </ul>
+
+            <p>Achieving the vision will require changes to all aspects of systems: not only the physical networks but also the legal and regulatory bases for road financing and citywide or regional management of systems, operation and maintenance regimes, and, potentially, organizational and management structures. The Strategic Framework recognizes that systems are linked and interdependent at multiple levels. Changes in one system will often only achieve their full impact when accompanied by complementary changes in others. Furthermore, all systems changes must be directly coordinated with changes in the designation, use, and ownership of land; and in the location and scale of employment and housing.</p>
+
+            <p><strong>Achieving change</strong>. No single agency, public or private, can make all the changes
+            necessary to create more sustainable services for the city, including changes
+            governing land use, systems, charging, and taxation. Multiple agencies acting
+            independently are also unlikely to achieve what is needed. Change can only come
+            through a coordinated effort by all systems agencies—both public and private—to
+            achieve overall viability for the city and its systems through measures that reduce
+            cost and increase revenues.</p>
+
+            <p><strong>Cost reduction</strong>: Many City of Detroit departments and agencies are already undergoing significant reform to address management efficiencies. In some cases, maintenance and renewal cycles have also been lengthened to reduce annual expenditures. More fundamental changes may be required soon. For example, mandated service levels and areas may need to be changed to reflect actual need. Bus service for high-vacancy areas may need to be re-patterned. More broadly, as the pattern and intensity of land use changes, so to must planning, regulatory, and investment decisions change to support the city’s new urban form. Closely aligned to this, intervention will be required to realign the physical scale and capacity of networks to match the changed land use patterns.</p>
+
+            <p><strong>Revenue Raising</strong>: Direct charges for services and (to a lesser extent) taxation are the primary sources of support for the operation and renewal of systems. Set against Detroit’s average household incomes and equivalent rates in peer cities, Detroit’s taxation rates and charges for some services are already very high. Raising rates even further will be less successful than, instead, adopting strategies to increase the number of households in a service area. Examples of such strategies include neighborhood stabilization programs that can attract new residents and increase house values and revenues; or establishment of neighborhood retail centers to retain more spending within the city and raise additional employment and sales taxes.</p>
+
+            <p>The strategies set out in this chapter utilize all of these ‘levers’. However, a fundamental premise of the Strategic Framework is that raising charges and taxation rates and increasing operational efficiency alone will not sustain Detroit’s systems. More fundamental realignment is required to adapt to the massive changes that the city has experienced and will experience.</p>
+
+            <section id="1">
+                <h5><a name="1"></a>A. Reform delivery system</h5>
+
+                <p>Detroit’s infrastructure renewal strategy addresses the need to allocate limited
+                funds both spatially in the city—where people work and live right now—and temporally over the next twenty years, to encourage new residents and new business. This will mean upgrading network capacity in priority employment centers and neighborhoods, while reducing capacity where there is little or no demand. All investments must be guided by a clear plan that removes uncertainty around future city development and demonstrates the maximum possible cost savings for each dollar spent up front.</p>
+
+                <p>Reforming system delivery also means coordinating investment among all of the private and public partners involved, to prevent them from acting without reference to one another, which in turn could prevent them from duplicating efforts or making unnecessary expenditures. It also means being aware of the technical or social constraints and special needs of each particular area, so that restructuring the city is not only cost-effective but also still serves residents’ needs.</p>
+
+                <h6>Implementation actions: </h6>
+                <ol>
+                    <li>Use the framework plan to create certainty around residential and employment density in each area of the city.</li>
+                    <li>Right-size systems so that network capacity matches residential and employment demand for each area in the medium term.</li>
+                    <li>Balance investment in areas of greatest need with investment in areas of greatest potential.</li>
+                    <li>Address equity: ensure that a good standard of core services are provided to all groups in all areas including high-vacancy areas.</li>
+                </ol>
+            </section>
+
+
+            <section id="2">
+                <h5><a name="2"></a>B. Create landscapes that work</h5>
+
+
+                <p>Although the City of Detroit only accounts for 12.9% of the total Detroit Water and
+                Sewerage Department (DWSD) service area, investing in blue infrastructure within Detroit (rather than elsewhere in the region) is a valuable opportunity for the city</p>
+
+                <ul>
+                     <li>to emerge as a leader in sustainable water management strategies and technologies;</li>
+
+                     <li>to enjoy the multiple benefits blue infrastructure offers to a city (visual amenities, increased property values, and neighborhood stabilization);</li>
+
+                     <li>to capture funding opportunities that exist regionally (Great Lakes Restoration Initiative funds, and other grants).</li>
+                </ul>
+
+                <p>Additional benefits of blue infrastructure include flood mitigation, improved water quality and stream channel health (better for fish and other aquatic life), and recreational opportunities.</p>
+
+                <p>Green corridors are proposed as forest buffers that absorb carbon dioxide, particulate matter, and pollutants emitted into the air from vehicular exhaust, industrial uses, or infrastructure facilities. Improved air quality has health benefits for residents who live nearby and can provide a unique setting to attract new businesses.</p>
+
+
+                <h6>Implementation actions: </h6>
+                <ol>
+                    <li>Deploy surplus land as multifunctional infrastructure landscapes, primarily addressing flood water mitigation and air quality.</li>
+                    <li>Bring health and social benefits associated with landscapes and green facilities to lower income groups with poor access to transportation.</li>
+                </ol>
+            </section>
+
+
+            <section id="3">
+                <h5><a name="3"></a>C. Reconfigure transportation</h5>
+
+                <p>Detroit’s transportation systems must be realigned to better serve the emerging
+                needs of the future city. For example, the existing road network has significantly more space than it requires to meet current and projected traffic demand. At the same time, there is a shortage of non-motorized transportation networks for people to walk and cycle on. Paths that do exist are disjointed and less valuable than if they were connected in a single network, particularly for freight efficiency.</p>
+
+                <p>Detroit’s transit system is in need of major reform to establish bus rapid transit (BRT) links between the main employment centers in the metropolitan area and to orient other transit types as feeders. These faster routes will offer access to a wider range of employment opportunities for Detroiters than at present, and will improve cross-town connections. During initial stages, the proposed adjustments to the network can be made at little or no additional cost. Some changes simply require a different mode of operation using the same fleets and roads—such as designating new express bus routes as a precursor to BRT or light rail. Others can be implemented on a rolling basis so that large up-front costs are avoided. The transportation network (roads and railways, as well as the vehicles that circulate on them) is as important to quality of life as it is to accessing work, services, education, and business opportunities. In addition, Detroit’s strategic location on national and international networks makes transportation improvement a potentially important industry in its own right.</p>
+
+                <h6>Implementation actions: </h6>
+                <ol>
+                    <li>Realign city road hierarchy to provide faster connections between employment, district, and neighborhood centers.</li>
+                    <li>Enhance transit service and increased ridership by realigning transit system to provide integrated network based on fast connections between regional employment centers, supported by feeder services from residential areas.</li>
+                    <li>For higher-vacancy areas, provide smaller-scale, flexible on-demand services.</li>
+                    <li>Align pattern of development in centers and neighborhoods to support greater number of walking and cycle trips, including promotion of greenways.</li>
+                    <li>Support freight and logistics industries through upgrade of key routes and provision of enhanced connections across the border to Canada.</li>
+                    <li>Provide large-scale multimodal freight interchange facilities to support local industry and overall city logistics role.</li>
+                </ol>
+            </section>
+
+
+            <section id="4">
+                <h5><a name="4"></a>D. Enhance communications access</h5>
+
+                <p>The information and communication technology industry (in its wireless incarnation)
+                is sufficiently young that it has not suffered from the decline in Detroit’s population
+                in the same way as the other city systems. Telecoms and data companies are, in fact,
+                still expanding their coverage of the city. In this context, Detroit has an opportunity
+                to harness the latest technology for monitoring and real-time balancing or
+                optimizing of city systems. On top of the management of the hard systems there
+                are real benefits available to the delivery of public services through e-governance 169 programs. This is quite apart from the critical support that super-fast data systems
+                provide to some of Detroit’s fastest growing industries.</p>
+
+                <h6>Implementation actions: </h6>
+                <ol>
+                    <li>Ensure high-speed data networks are in place to serve existing and new economic sectors and wider community.</li>
+                    <li>Develop e-government platform to maximize efficiency of social service delivery.</li>
+                    <li>Utilize improved data network to develop smart infrastructure systems which deliver improved service with smaller capacity infrastructure.</li>
+                </ol>
+            </section>
+
+            <section id="5">
+                <h5><a name="5"></a>E. Improve lighting efficency</h5>
+
+                <p>Of all the public services at stake in Detroit’s changing population and land use patterns, public lighting is one of the most potent symbols of the scale of decline in city infrastructures. This being the case, the Public Lighting department has embarked on an ambitious plan to both rationalize the number of active lamps in the city and to upgrade them to low-energy fittings. This has the potential to be developed further to align to the land use changes set out in the Strategic Development Framework plan. Significant organizational and financial changes— including the establishment of a separate Public Lighting Authority (PLA) to contract out maintenance and operation to a third party—are also being considered
+                to improve service delivery and unlock funding for investment.</p>
+
+                <h6>Implementation actions: </h6>
+                <ol>
+                    <li>Reduce number of lights and upgrade all remaining lights to low-energy LED type.</li>
+                    <li>In high-vacancy areas, take some parts of the network off-grid, using solar power for generation.</li>
+                    <li>Transfer ownership of the network to a new Public Lighting Authority which can procure services from the private sector competitively.</li>
+                </ol>
+            </section>
+
+            <section id="6">
+                <h5><a name="6"></a>F. Reduce waste and increase recycling</h5>
+
+                <p>Detroit’s waste collection and management system is linked to the era of centralized production and distribution. New technologies for collecting and processing, along with restructured form of the city, offer opportunities to decentralize and optimize the city’s waste management system. By linking waste management with transportation adjustments and land use changes, Detroit can become cleaner and more efficient. In particular, Detroit could recycle much more of its waste and develop more rigorous recycling programs.</p>
+
+                <h6>Implementation actions: </h6>
+                <ol>
+                    <li>Reduce total levels of waste through citizen education and work with packaging industry.</li>
+                    <li>Develop targeted and citywide curbside recycling program.</li>
+                    <li>Ensure that incinerator emissions remain at or below US EPA standards and international best practice.</li>
+                </ol>
+            </section>
+
+            <section id="6">
+                <h5><a name="6"></a>G. Actively manage change</h5>
+
+                <p>Each of the city system providers has been challenged by the restructuring of the city. Developing a successful response to the challenges will greatly depend on effective coordination among system operators. Such an approach to system consolidation will open up opportunities for a wider number of stakeholders to achieve efficiency and integration of services and systems. These opportunities can be understood as interdependencies (where streamlining one system facilitates operational efficiencies for another), indirect benefits (improving quality of life and environmental justice through more efficient use of space and resources), and interagency agreements (by-products of one system can be used by another).</p>
+
+                <p>The regulatory issues that impede effective interagency operation should be tackled, and an interagency platform established to facilitate the kind of coordinated planning that the city will need if it is to move forward from its current predicament. Although distinct, these proposals are linked because one of the best ways to structure change is via the requirements of each agency to file an annual capital investment budget for state approval. Thus, mandated levels and forms of service could be varied to align each system with the others.</p>
+
+                <p>Several regulatory changes to support interagency cooperation have been proposed in the past, yet have not been adopted by the city. These changes deserve renewed emphasis. Examples of this are the creation of a Regional Transportation Authority to allow for integrated public transportation policy and funding, adjustment of the current road funding mechanism (Act 51) to meet the future needs of the city, and the creation of a new Public Lighting Authority able to buy its energy from multiple suppliers and outsource maintenance contracts if necessary.</p>
+
+                <h6>Implementation actions: </h6>
+                <ol>
+                    <li>Adopt Strategic Framework Plan as basis for systems transformation and put in place rolling review program.</li>
+                    <li>Create an interagency platform to coordinate change across public and private sector bodies.</li>
+                    <li>Communicate with affected communities and monitor processes for emerging success and unforeseen adverse impacts.</li>
+                </ol>
+            </section>
+
+            </div> <!--Body content end-->
+        </div>
+
+</div> <!--container end-->
+
+<!--Javascript libraries
+==================================================-->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
